@@ -1,5 +1,13 @@
-# Coursework Evidence
+## Coursework Evidence
 
+This project is based on practical MSc cybersecurity laboratory work.
+
+A sanitised summary of the academic context, individual contribution,
+tools, techniques and skills demonstrated is available here:
+
+**[View Coursework Evidence](evidence/COURSEWORK_EVIDENCE.md)**
+
+---
 ## Academic Context
 
 This repository is based on practical web application security exercises
