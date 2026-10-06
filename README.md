@@ -1,5 +1,13 @@
 # Web Application Security – CTF Writeups
 
+## Coursework Evidence
+
+A sanitised summary of the academic context, individual contribution,
+tools, techniques and skills demonstrated in this project is available here:
+
+**[View Coursework Evidence](evidence/COURSEWORK_EVIDENCE.md)**
+
+---
 Hands-on web application security analysis completed within an authorised
 academic laboratory as part of my MSc Cybersecurity and Machine Learning studies.
 
@@ -15,18 +23,26 @@ potential defensive detection opportunities.
 
 ## Security Areas Covered
 
-| # | Security Topic | Key Concepts |
-|---|---|---|
-| 01 | [Hardcoded Credentials](challenges/01-hardcoded-credentials/) | Client-side exposure, authentication security |
-| 02 | [HTTP Parameter Tampering](challenges/02-parameter-tampering/) | HTTP requests, access control, server-side validation |
-| 03 | [OS Command Injection](challenges/03-command-injection/) | Input validation, command execution, server security |
-| 04 | [Information Disclosure](challenges/04-information-disclosure/) | Static resources, information exposure, reconnaissance |
-| 05 | [Cookie Authentication Bypass](challenges/05-cookie-authentication-bypass/) | Cookies, sessions, authentication |
-| 06 | [SQL Injection](challenges/06-sql-injection/) | Database security, injection, prepared statements |
-| 07 | [LSB Steganography](challenges/07-lsb-steganography/) | Hidden data, file analysis, digital investigation |
-| 08 | [JWT Security](challenges/08-jwt-security/) | JWT validation, token integrity, authorization |
+| # | Security Topic | Key Concepts | OWASP Relevance |
+|---|---|---|---|
+| 01 | [Hardcoded Credentials](challenges/01-hardcoded-credentials/) | Client-side exposure, authentication security | Security Misconfiguration / Identification & Authentication |
+| 02 | [HTTP Parameter Tampering](challenges/02-parameter-tampering/) | HTTP requests, access control, server-side validation | Broken Access Control |
+| 03 | [OS Command Injection](challenges/03-command-injection/) | Input validation, command execution, server security | Injection |
+| 04 | [Information Disclosure](challenges/04-information-disclosure/) | Static resources, information exposure, reconnaissance | Security Misconfiguration |
+| 05 | [Cookie Authentication Bypass](challenges/05-cookie-authentication-bypass/) | Cookies, sessions, authentication | Identification & Authentication / Broken Access Control |
+| 06 | [SQL Injection](challenges/06-sql-injection/) | Database security, injection, prepared statements | Injection |
+| 07 | [LSB Steganography](challenges/07-lsb-steganography/) | Hidden data, file analysis, digital investigation | Not directly mapped |
+| 08 | [JWT Security](challenges/08-jwt-security/) | JWT validation, token integrity, authorization | Identification & Authentication / Broken Access Control |
 
----
+### OWASP Context
+
+The OWASP mappings above indicate the security categories most relevant to
+each exercise rather than claiming that every challenge represents an exact
+one-to-one OWASP Top 10 classification.
+
+Some exercises, such as LSB steganography, demonstrate broader cybersecurity
+and investigation techniques rather than a specific OWASP web application
+vulnerability.
 
 ## Tools & Technologies
 
